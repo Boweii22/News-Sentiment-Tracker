@@ -6,8 +6,8 @@ urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
 
 proxy_host = "brd.superproxy.io"
 proxy_port = "33335"
-proxy_user = "brd-customer-hl_5c430880-zone-residential_proxy1_news_sentim"
-proxy_pass = "e06amr6m5bad"
+proxy_user = "your_proxy_username"
+proxy_pass = "your_proxy_password"
 
 proxies = {
     "http": f"http://{proxy_user}:{proxy_pass}@{proxy_host}:{proxy_port}",

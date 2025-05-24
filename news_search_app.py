@@ -2,9 +2,12 @@ import streamlit as st
 import requests
 from bs4 import BeautifulSoup
 
+
+# I was trying to test brightdata before actually using it... so this will scrape the guardians website... will give you the html format
+
 # Bright Data API Config
 BRIGHTDATA_API_URL = "https://api.brightdata.com/request"
-BRIGHTDATA_TOKEN = "c73b9305e92813536b997e96516ea38780845020405678a57c45d8d4fc603c36"  # Replace with your actual token
+BRIGHTDATA_TOKEN = ""  # Replace with your actual token
 ZONE = "web_unlocker1_news_sentiment"
 
 def fetch_news_from_guardian(query):
